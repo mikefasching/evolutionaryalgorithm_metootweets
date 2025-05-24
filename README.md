@@ -1,12 +1,12 @@
 # Clustering #MeToo Twitter Discourse with Evolutionary Algorithms
 
-This repository contains the full implementation of a research project comparing the performance of three evolutionary algorithms for semantic clustering of tweets from the #MeToo movement. The goal is to identify meaningful discourse clusters using Word2Vec embeddings and swarm intelligence.
+This repository contains the full implementation of a research project comparing the performance of three swarm intelligence algorithms—Artificial Bee Colony (ABC-CS), Ant Colony Optimization (ACO-CS), and Enhanced Fireworks Algorithm (EFWA-CS)—for clustering #MeToo tweets. The framework uses Sentence-BERT embeddings and cosine similarity to capture semantic alignment, and evaluates clusters across multiple runs using statistical metrics, interpretive traceability, and word cloud visualizations.
 
 ---
 
 ## 📘 Paper Title
 
-**Comparative Analysis of Evolutionary Algorithms for Clustering #MeToo Twitter Discourse**  
+**Toward Stable and Ethical Discourse Analysis: A Swarm Intelligence Framework for Emotionally Charged #MeToo Content**  
 *If you’re reading this repo as part of the paper, welcome!*
 
 ---
@@ -15,9 +15,9 @@ This repository contains the full implementation of a research project comparing
 
 This project includes custom implementations of three advanced clustering algorithms with performance tracking and angular movement mechanisms:
 
-- **Ant Colony Optimization (ACO)** → `modified_ant_colony.py`
-- **Artificial Bee Colony (ABC)** → `modified_bee_colony.py`
-- **Enhanced Fireworks Algorithm (EFWA)** → `modified_fireworks.py`
+- **Ant Colony Optimization with Cosine Similarity (ACO-CS)** → `modified_ant_colony.py`
+- **Artificial Bee Colony with Cosine Similarity (ABC-CS)** → `modified_bee_colony.py`
+- **Enhanced Fireworks Algorithm with Cosine Similarity (EFWA-CS)** → `modified_fireworks.py`
 
 Each algorithm is adapted for semantic vector spaces using cosine similarity and tested for clustering performance using the Calinski-Harabasz (CH) Index and Silhouette Score.
 
